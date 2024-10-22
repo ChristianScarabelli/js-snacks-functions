@@ -10,8 +10,8 @@ const name = 'Mario'
 
 // Dichiara la funzione qui.
 function sayHiTo (string) {
-    let message = new Date()  // Questo crea un nuovo oggetto Data che rappresenta il momento attuale.
-    let time = message.getHours()  // Ottengo l'ora corrente (in un formato a 24 ore) dal nostro oggetto Data.
+    let date = new Date()  // Questo crea un nuovo oggetto Data che rappresenta il momento attuale.
+    let time = date.getHours()  // Ottengo l'ora corrente (in un formato a 24 ore) dal nostro oggetto Data.
     let greeting   // dichiaro la variabile per il saluto che cambierà in base all'orario
 
     if ((time >= 0) && (time < 13)) {

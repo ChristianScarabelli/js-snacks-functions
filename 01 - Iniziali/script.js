@@ -33,7 +33,7 @@ const firstCharOfEveryWord = (array) => {
 }
 
 //  Arrow function con ritorno IMPLICITO
-const firstCharOfEveryWord = array => array.map(name => name[0])
+const firstCharOfEveryWord = (array) => array.map(name => name[0])
 
 
 
